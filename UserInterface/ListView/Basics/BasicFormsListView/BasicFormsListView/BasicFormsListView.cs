@@ -10,7 +10,9 @@ namespace BasicFormsListView
 		{
 			// The root page of your application
 			//MainPage = new ListViewXaml();
-			MainPage = new ListViewCode();
+			MainPage = new NavigationPage();
+			MainPage.Navigation.PushAsync (new ListViewCode ());
+			MainPage.Navigation.PushAsync(new ListViewXaml()); 
 		}
 
 		protected override void OnStart ()

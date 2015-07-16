@@ -13,11 +13,11 @@ namespace builtInCellsListView
 			ListView lstView = new ListView ();
 			lstView.ItemsSource = veggies;
 			//TODO - uncomment the region for the built-in cell type you'd like to see
-			/*#region textCell
+			#region textCell
 			lstView.ItemTemplate = new DataTemplate (typeof(TextCell));
 			lstView.ItemTemplate.SetBinding (TextCell.TextProperty, "name");
 			lstView.ItemTemplate.SetBinding (TextCell.DetailProperty, "comment");
-			#endregion*/
+			#endregion
 
 			/*#region imageCell
 			lstView.ItemTemplate = new DataTemplate (typeof(ImageCell));

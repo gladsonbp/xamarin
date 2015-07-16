@@ -9,8 +9,9 @@ namespace builtInCellsListView
 		public App ()
 		{
 			// The root page of your application
-			//MainPage = new ListViewCode ();
-			MainPage = new ListViewXaml ();
+			MainPage = new NavigationPage ();
+			MainPage.Navigation.PushAsync (new ListViewXaml ());
+			MainPage.Navigation.PushAsync (new ListViewCode ());
 		}
 
 		protected override void OnStart()

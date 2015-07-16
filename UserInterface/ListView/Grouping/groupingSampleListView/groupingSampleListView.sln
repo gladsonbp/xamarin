@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "groupingSampleListView.iOS"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "groupingSampleListView.Droid", "Droid\groupingSampleListView.Droid.csproj", "{C27E95ED-6691-413C-BC07-A5186645FAF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "groupingSampleListView.UITests", "UITests\groupingSampleListView.UITests.csproj", "{E600B4B4-E983-40AC-A685-DC77C5490A46}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,17 +53,5 @@ Global
 		{C27E95ED-6691-413C-BC07-A5186645FAF3}.Release|iPhone.Build.0 = Release|Any CPU
 		{C27E95ED-6691-413C-BC07-A5186645FAF3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{C27E95ED-6691-413C-BC07-A5186645FAF3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|iPhone.Build.0 = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{E600B4B4-E983-40AC-A685-DC77C5490A46}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

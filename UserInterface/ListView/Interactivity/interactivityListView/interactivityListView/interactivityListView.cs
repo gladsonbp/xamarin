@@ -10,7 +10,9 @@ namespace interactivityListView
 		{
 			// The root page of your application
 			//MainPage = new interactiveListViewXaml ();
-			MainPage = new interactiveListViewCode();
+			MainPage = new NavigationPage();
+			MainPage.Navigation.PushAsync (new interactiveListViewXaml ());
+			MainPage.Navigation.PushAsync (new interactiveListViewCode ());
 		}
 
 		protected override void OnStart ()

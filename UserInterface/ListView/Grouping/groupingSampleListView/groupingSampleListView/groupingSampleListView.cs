@@ -8,9 +8,9 @@ namespace groupingSampleListView
 	{
 		public App ()
 		{
-			// Adjust commenting to choose which method to use
-			//MainPage = new GroupedListCode ();
-			MainPage = new GroupedListXaml();
+			MainPage = new NavigationPage();
+			MainPage.Navigation.PushAsync (new GroupedListXaml ());
+			MainPage.Navigation.PushAsync (new GroupedListCode ());
 		}
 
 		protected override void OnStart ()

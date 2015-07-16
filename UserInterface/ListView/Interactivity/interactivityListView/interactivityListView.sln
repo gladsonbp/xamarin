@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interactivityListView.iOS",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interactivityListView.Droid", "Droid\interactivityListView.Droid.csproj", "{A890AA82-0703-4338-A22D-5C12DC1BA248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interactivityListView.UITests", "UITests\interactivityListView.UITests.csproj", "{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,18 +17,6 @@ Global
 		Debug|iPhone = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|iPhone.Build.0 = Release|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{9C58457A-0FC8-4DF3-AD02-52939FFE9A1A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A890AA82-0703-4338-A22D-5C12DC1BA248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A890AA82-0703-4338-A22D-5C12DC1BA248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A890AA82-0703-4338-A22D-5C12DC1BA248}.Debug|iPhone.ActiveCfg = Debug|Any CPU
